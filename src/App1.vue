@@ -14,7 +14,7 @@
     <navbar @myevent="handleEvent">
       <button @click="isShow=!isShow">slot-button</button>
     </navbar>
-    <sidebar v-show="isShow"></sidebar>
+<!--    <sidebar v-show="isShow"></sidebar>-->
 
     <!-- <component :is="home"/>
     <home v-show="which==='home'"></home>
